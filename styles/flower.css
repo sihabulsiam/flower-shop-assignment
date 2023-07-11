@@ -1,0 +1,38 @@
+.header{
+    background: url(<path-to-image>), 50% / cover no-repeat;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+.banner{
+    display: flex;
+    background-repeat: no-repeat;
+    padding: 30px 30px 0px 150px;
+    
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.banner-photo{
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+.btn-praimary{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+}
+
