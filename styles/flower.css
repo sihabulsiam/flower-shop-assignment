@@ -1,47 +1,51 @@
-.header{
+.header {
     background: url(<path-to-image>), 50% / cover no-repeat;
     background: rgba(229, 84, 115, 0.10);
 }
-.banner-title{
+
+.banner-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
     width: 708px;
     height: 288px;
 }
-.banner-item{
+
+.banner-item {
     align-items: start;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: left;
     background-repeat: no-repeat;
     padding: 30px 30px 0px 150px;
-    
 }
-.banner-description{
+
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 50px;
 }
-.banner-photo{
-    width: 635px;
-    height: 800px;
-    flex-shrink: 0;
+
+.banner-photo {
+    width: 400px;
+
 }
-.btn-praimary{
+
+.btn-praimary {
     color: #fff;
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
-    border-radius: 8px ;
+    border-radius: 8px;
     background: #E55473;
 }
-.title-section{
+
+.title-section {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -50,46 +54,159 @@
     font-weight: 800;
     line-height: normal;
 }
-.title-description{
+
+.title-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
 }
-.about-section{
+
+.about-section {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
-.section-background1{
+
+.section-background1 {
     width: 464px;
-height: 538px;
-flex-shrink: 0;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-position: relative;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    position: relative;
 
 }
-.section-background2{
+
+.section-background2 {
     width: 464px;
-height: 538px;
-flex-shrink: 0;
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-position: relative;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    position: relative;
 }
-.section-background3{
+
+.section-background3 {
     width: 464px;
-height: 538px;
-flex-shrink: 0;
-border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-position: relative;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    position: relative;
 }
-.section-img{
+
+.section-img {
     position: absolute;
     bottom: 0;
     left: 50%;
-  transform: translateX(-50%);
+    transform: translateX(-50%);
 }
-.section-item{
+
+.section-item {
     text-align: center;
+}
+
+.about-item {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 600px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.about-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    left: 50%;
+}
+
+.about-skill {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    Font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-skill {
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+}
+
+.section-item-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-item-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section-item-about {}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.section-about{
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#email-form {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+.btn-title {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.section-about{
+    background-image: url('/images/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 400px;
+}
+.all-section{
+    width: 100%;
+}
+
+
+.subscribe-btn{
+    margin: 0;
+  top: 50%;
+  left: 50%;
 }
